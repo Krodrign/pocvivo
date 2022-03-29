@@ -1,0 +1,99 @@
+/* Card title style  */
+
+.card-title-content {
+    margin-top: 15px;
+    padding-left: 2.5%;
+}
+
+.card-title-content p {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+/* Card Style  */
+
+.hidde-item {
+    visibility: hidden;
+}
+
+.cards-container {
+    padding: 30px;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.card-content {
+    border: 1px solid #609;
+    border-radius: 4px;
+    padding: 1rem 1.8rem;
+    width: 80%;
+}
+
+.p-card-title {
+    color: #666;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.p-card-product {
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(43, 42, 42);
+    margin: 0 0 15px 0;
+}
+
+.p-card-description {
+    color: #609;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+
+.p-card-old-value {
+    margin-top: 10%;
+    font-size: 15px;
+    color: #666;
+}
+
+.p-card-value {
+    font-size: 27px;
+    font-weight: 300;
+    color: rgb(43, 42, 42);
+}
+
+.card-container-btn-subscribe {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.a-card-btn-subscribe {
+    background-color: #cb2166;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    padding: 18px 0;
+    display: inline-block;
+}
+.a-card-btn-subscribe:hover {
+    background-color: #cb2165b0;
+}
+
+.card-container-btn-more-details {
+    text-align: center;
+    margin: 10px 0 50px 0;
+}
+
+.a-card-btn-more-details {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #666;
+    font-size: 15px;
+}

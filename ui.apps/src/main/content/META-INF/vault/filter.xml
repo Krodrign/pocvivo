@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/vivopoc/clientlibs"/>
+    <filter root="/apps/vivopoc/components"/>
+    <filter root="/apps/vivopoc/i18n"/>
+</workspaceFilter>
